@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reachability.h"
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, MFMessageComposeViewControllerDelegate>
 
 
 @end

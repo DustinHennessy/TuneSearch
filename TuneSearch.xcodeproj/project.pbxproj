@@ -15,6 +15,10 @@
 		9FB17A811B2F32760044D47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB17A801B2F32760044D47C /* Images.xcassets */; };
 		9FB17A841B2F32760044D47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB17A821B2F32760044D47C /* LaunchScreen.xib */; };
 		9FB17A901B2F32760044D47C /* TuneSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB17A8F1B2F32760044D47C /* TuneSearchTests.m */; };
+		9FB17A9B1B2F350E0044D47C /* ResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB17A9A1B2F350E0044D47C /* ResultsTableViewCell.m */; };
+		9FB17A9E1B2F39800044D47C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB17A9D1B2F39800044D47C /* Reachability.m */; };
+		9FB17AA81B30A56B0044D47C /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB17AA71B30A56B0044D47C /* Images.m */; };
+		9FB17AAA1B30CF3C0044D47C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB17AA91B30CF3C0044D47C /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,13 @@
 		9FB17A891B2F32760044D47C /* TuneSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB17A8E1B2F32760044D47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB17A8F1B2F32760044D47C /* TuneSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuneSearchTests.m; sourceTree = "<group>"; };
+		9FB17A991B2F350E0044D47C /* ResultsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewCell.h; sourceTree = "<group>"; };
+		9FB17A9A1B2F350E0044D47C /* ResultsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewCell.m; sourceTree = "<group>"; };
+		9FB17A9C1B2F39800044D47C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9FB17A9D1B2F39800044D47C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9FB17AA61B30A56B0044D47C /* Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		9FB17AA71B30A56B0044D47C /* Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
+		9FB17AA91B30CF3C0044D47C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB17AAA1B30CF3C0044D47C /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +99,14 @@
 				9FB17A751B2F32760044D47C /* AppDelegate.m */,
 				9FB17A7A1B2F32760044D47C /* ViewController.h */,
 				9FB17A7B1B2F32760044D47C /* ViewController.m */,
+				9FB17AA61B30A56B0044D47C /* Images.h */,
+				9FB17AA71B30A56B0044D47C /* Images.m */,
+				9FB17A991B2F350E0044D47C /* ResultsTableViewCell.h */,
+				9FB17A9A1B2F350E0044D47C /* ResultsTableViewCell.m */,
+				9FB17A9C1B2F39800044D47C /* Reachability.h */,
+				9FB17A9D1B2F39800044D47C /* Reachability.m */,
 				9FB17A7D1B2F32760044D47C /* Main.storyboard */,
+				9FB17AA91B30CF3C0044D47C /* MessageUI.framework */,
 				9FB17A801B2F32760044D47C /* Images.xcassets */,
 				9FB17A821B2F32760044D47C /* LaunchScreen.xib */,
 				9FB17A771B2F32760044D47C /* TuneSearch.xcdatamodeld */,
@@ -223,8 +242,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB17A791B2F32760044D47C /* TuneSearch.xcdatamodeld in Sources */,
+				9FB17A9B1B2F350E0044D47C /* ResultsTableViewCell.m in Sources */,
 				9FB17A761B2F32760044D47C /* AppDelegate.m in Sources */,
 				9FB17A7C1B2F32760044D47C /* ViewController.m in Sources */,
+				9FB17AA81B30A56B0044D47C /* Images.m in Sources */,
+				9FB17A9E1B2F39800044D47C /* Reachability.m in Sources */,
 				9FB17A731B2F32760044D47C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
